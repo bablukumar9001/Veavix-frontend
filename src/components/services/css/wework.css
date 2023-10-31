@@ -1,0 +1,27 @@
+.workcard {
+  margin-left: 69px;
+  margin-top: 21px;
+  /* background-color: #ecf0f3; */
+  background-color: #0b0a1e;
+}
+.work-wrapper {
+  background: #0b0a1e;
+  height: 450px;
+  color: white;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(-5px);
+  background-color: rgba(190, 253, 119, 0.925);
+  color: black;
+  /* color: white; */
+}
+.card-title {
+  color: rgb(255, 0, 0);
+}
+/* .card-title:hover {
+  color: black;
+} */
+/* .card .card-title:hover {
+  color: black;
+} */

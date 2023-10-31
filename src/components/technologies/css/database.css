@@ -1,0 +1,16 @@
+.database {
+  margin-top: 50px;
+}
+
+.databasebox1 {
+  background-color: rgb(209, 166, 166);
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
+.databasebox2 {
+  background-color: aqua;
+
+  height: 300px;
+  margin-right: 20px;
+}

@@ -1,0 +1,15 @@
+.index-home {
+  background: #e2e1f8;
+  /* background-image: url("background.png"); */
+  margin-top: -52px;
+  color: black;
+  padding-bottom: 70px;
+}
+.index-home .tech {
+  color: black;
+}
+.animate-text {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ff014f;
+}

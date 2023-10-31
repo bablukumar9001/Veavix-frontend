@@ -1,0 +1,17 @@
+.frontend {
+  margin-top: 50px;
+}
+
+.frontendbox1 {
+  margin-right: 20px;
+  border: 3px solid var(--blue-color);
+  border-radius: 8px;
+  background: white;
+}
+.frontendbox2 {
+  border: 3px solid var(--blue-color);
+  border-radius: 8px;
+  /* height: 330px; */
+  margin-left: 20px;
+  background: white;
+}

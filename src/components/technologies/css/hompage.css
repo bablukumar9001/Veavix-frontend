@@ -1,0 +1,30 @@
+.homepage {
+  margin-top: 50px;
+  color: white;
+}
+
+.box1 {
+  /* background-color: aqua; */
+  width: 500px;
+  height: 400px;
+  margin-right: 20px;
+}
+.box2 {
+  /* background-color: rgb(218, 114, 114); */
+  width: 600px;
+  height: 400px;
+  margin-left: 20px;
+}
+.home-service {
+  background: #0b0a1e;
+  /* background-image: url("background.png"); */
+  margin-top: -52px;
+}
+.tech {
+  margin-top: 130px;
+}
+.techimage {
+  height: 400px;
+  width: 500px;
+  margin-left: 50px;
+}
