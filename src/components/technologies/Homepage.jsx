@@ -2,7 +2,6 @@ import React from "react";
 // import "./css/hompage.css";
 import "../technologies/css/hompage.css";
 import techimage from "/tech.png";
-import "../services/css/payment.css";
 const Homepage = () => {
   return (
     <>
