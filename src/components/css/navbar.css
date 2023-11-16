@@ -25,22 +25,29 @@ textarea {
   z-index: 1;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  /* color: #fff; */
+  color: black;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(255, 255, 255, 0.849);
+  /* color: rgba(255, 255, 255, 0.849); */
+  color: rgba(54, 52, 52, 0.849);
 }
 .bg-dark {
-  background-color: #0b0a1e !important;
+  /* background-color: var(--black-color) !important; */
+  background-color: #fff !important;
+  font-weight: 500;
 }
+
 .main-btn-navbar {
   display: inline-block;
   transition: all 0.4s ease-in-out;
   padding: 10px 71px;
   background-color: transparent;
   border: 0px solid rgb(66, 66, 66);
-  color: rgb(253, 244, 244);
+  /* color: rgb(253, 244, 244); */
+  /* color: rgb(3, 3, 3); */
   /* font-weight: 900; */
+  color: black !important;
   font-size: 16px;
   letter-spacing: 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -51,4 +58,7 @@ textarea {
 .main-btn-navbar:hover {
   background-color: #ff014f;
   color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0 / 67%);
 }

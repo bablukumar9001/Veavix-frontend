@@ -9,11 +9,15 @@ const ContactHome = () => {
           <div className="row">
             <div className="col-lg-6 box1 text-center">
               <div className="tech">
-                <h1 className="mt-5">CONTACT US</h1>
-                <p className="mt-3">
-                  We are on edge of our seats to hear you out and make it all
-                  possible on your behalf.
-                </p>
+                <div class="title">
+                  <h1 className="h1">CONTACT US</h1>
+                </div>
+                <div className="mt-3 par ">
+                  <p className="p">
+                    We are on edge of our seats to hear you out and make it all
+                    possible on your behalf.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-6 box2 ">

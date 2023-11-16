@@ -13,3 +13,42 @@
   font-weight: 600;
   color: #ff014f;
 }
+.main-btn-contact {
+  /* transform: translateY(50px); */
+
+  animation: slideUp 0.8s ease-in-out forwards 1s;
+  overflow: hidden;
+  /* height: 100%; */
+  position: relative;
+  /* margin-top: 15px; */
+  outline: none;
+}
+
+.titlee {
+  overflow: hidden;
+  /* height: auto; */
+}
+
+.h11 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  transform: translateY(70px);
+  animation: slidedown 0.8s ease forwards 0.3s;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes slidedown {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(30px);
+  }
+}

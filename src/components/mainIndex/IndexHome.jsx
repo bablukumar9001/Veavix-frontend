@@ -11,8 +11,14 @@ const IndexHome = () => {
         <div className="container homepage">
           <div className="row">
             <div className="col-lg-6 box1 text-center">
+              {/* <div class="title">
+                <h1 className="h1">SERVICES</h1>
+              </div> */}
+
               <div className="tech">
-                <h1 className="">WE TRANFORM IDEAS INTO</h1>
+                <div className="titlee">
+                  <h1 className="h11">WE TRANFORM IDEAS INTO</h1>
+                </div>
                 <div className="animate-text">
                   <TypeAnimation
                     sequence={[
@@ -40,10 +46,15 @@ const IndexHome = () => {
               </div>
 
               <Link to="/ContactForm">
-                <button
+                {/* <button
                   type="submit"
                   class="rn-btn main-btn-contact px-4 btn-lg"
                 >
+                  GET A QUOTE{" "}
+                </button> */}
+
+                <button class="main-btn-contact px-4 btn-lg">
+                  {" "}
                   GET A QUOTE{" "}
                 </button>
               </Link>

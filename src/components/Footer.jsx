@@ -157,7 +157,51 @@ const Footer = () => {
             {/* <div className="col-lg-4 col-4 pt-3"></div> */}
           </div>
         </div>
+        {/* social icon */}
+        <div class="">
+          <div>
+            <ul className="list-unstyled-contact d-flex justify-content-center justify-content-md-end justify-content-lg-center social-iconn mb-3 mb-md-0">
+              <li>
+                <a href="https://www.instagram.com/abhay__9001/" target=" ">
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/abhay559722/" target=" ">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/babluku9001" target=" ">
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/bablu-kumar-a0aa16231/"
+                  target=" "
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/bablukumar9001" target=" ">
+                  <i className="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
+      <a href="https://wa.me/8920549001" target="_blank">
+        <i
+          // class="fa-brands fa-whatsapp fa-bounce"
+          class="fa-brands fa-whatsapp"
+          // style={{ color: "#32d31d" }}
+          id="whatsapp"
+        ></i>
+      </a>
+
       <div class="copyright">
         <p class="text-center">Copyright © 2023 Veavix. All rights reserved.</p>
       </div>

@@ -24,7 +24,7 @@ const Navbar = () => {
     <>
       <div>
         <nav
-          className={`navbar navbar-expand-lg navbar-dark bg-dark ${
+          className={`navbar navbar-expand-lg navbar-light bg-dark ${
             isActive ? "header-scrolled" : " "
           }`}
         >

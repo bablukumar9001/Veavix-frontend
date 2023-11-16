@@ -9,11 +9,24 @@
 :root {
   /* bakground color */
   --primary-color: #ecf0f3;
-  --blue-color: #0b0a1e;
+  /* --blue-color: #0b0a1e; */
+  --black-color: rgb(5, 5, 5);
 }
 body {
   width: 100%;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  background: #a8c0ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-family: "Poppins", sans-serif;
 }
 .footer-top_heading {
@@ -21,4 +34,10 @@ body {
 }
 .html {
   scroll-behavior: smooth;
+}
+
+#cards_landscape_wrap-2 {
+  /* text-align: center; */
+  /* background: #f7f7f7; */
+  background: none;
 }

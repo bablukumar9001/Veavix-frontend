@@ -2,12 +2,14 @@
   margin-left: 69px;
   margin-top: 21px;
   /* background-color: #ecf0f3; */
-  background-color: #0b0a1e;
+  /* background-color: var(--black-color); */
+  background-color: transparent;
 }
 .work-wrapper {
-  background: #0b0a1e;
+  background-color: white;
+
   height: 450px;
-  color: white;
+  color: black;
 }
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -17,7 +19,8 @@
   /* color: white; */
 }
 .card-title {
-  color: rgb(255, 0, 0);
+  /* color: rgb(228, 105, 57); */
+  color: rgb(216, 12, 12);
 }
 /* .card-title:hover {
   color: black;
