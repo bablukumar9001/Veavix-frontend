@@ -37,7 +37,7 @@ const Mobile = () => {
                     </h3>
                     <p class="pt-3">
                       A competent group of cross-platform mobile app developers
-                      works at Veavix. Therefore, employ our services if you
+                      works at Brave Solutions. Therefore, employ our services if you
                       have a limited budget but yet want your app to be
                       distributed across several platforms.
                     </p>

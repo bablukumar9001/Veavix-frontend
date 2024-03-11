@@ -30,8 +30,9 @@ const Navbar = () => {
         >
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
-              <img src={logo} alt="" style={{ height: "55px" }} />
+              {/* <img src={logo} alt="" style={{ height: "55px" }} /> */}
             </Link>
+            <h3>Brave Solutions</h3>
             <button
               className="navbar-toggler"
               type="button"

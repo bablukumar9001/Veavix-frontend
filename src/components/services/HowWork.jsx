@@ -13,7 +13,7 @@ const HowWork = () => {
         </p>
         <img src={workimage} alt="" />
         <div className="text-center mt-5" style={{ backgroundColor: "white" }}>
-          <h1>More About Veavix</h1>
+          <h1>More About Brave Solutions</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             laudantium debitis magnam quidem, assumenda ipsa impedit

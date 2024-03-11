@@ -24,7 +24,7 @@ const Footer = () => {
                     // style="text-transform:lowercase"
                     class="mx-2"
                   >
-                    info@veavix.com
+                    info@BraveSolutions.com
                   </a>
                 </p>
                 <p>
@@ -203,7 +203,7 @@ const Footer = () => {
       </a>
 
       <div class="copyright">
-        <p class="text-center">Copyright © 2023 Veavix. All rights reserved.</p>
+        <p class="text-center">Copyright © 2023 Brave Solutions. All rights reserved.</p>
       </div>
       <Outlet />
     </>

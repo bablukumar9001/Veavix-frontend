@@ -27,7 +27,7 @@ const Frontend = () => {
                       Leveraging The Latest Front-End Development Technologies
                     </h3>
                     <p class="pt-3">
-                      At Veavix, we are committed to building websites with
+                      At Brave Solutions, we are committed to building websites with
                       unrivalled UI and UX design. We make sure to cater to the
                       needs of our clients and provide them with innovative
                       suggestions to improve their judgement.
