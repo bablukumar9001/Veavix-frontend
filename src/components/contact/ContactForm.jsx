@@ -9,7 +9,6 @@ const ContactForm = () => {
     name: "",
     mobile: "",
     email: "",
-    subject: "",
     message: "",
   });
 
@@ -25,7 +24,7 @@ const ContactForm = () => {
     e.preventDefault();
     const { name, email, mobile, message } = user;
 
-    const res = await fetch("/clientdata", {
+    const res = await fetch("/employee/postuser", {
       method: "POST",
       body: JSON.stringify({
         name,

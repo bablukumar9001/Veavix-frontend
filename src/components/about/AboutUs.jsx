@@ -24,7 +24,8 @@ const AboutUs = () => {
           {/* services */}
 
           <div className="row mt-5">
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+
+            {/* <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
               <a href="">
                 <div class="card-flyer">
                   <div class="text-box">
@@ -42,103 +43,146 @@ const AboutUs = () => {
                   </div>
                 </div>
               </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-              <a href="">
-                <div class="card-flyer">
-                  <div class="text-box">
-                    <div class="image-box">
-                      <img src={result} alt="" />
-                    </div>
-                    <div class="text-container">
-                      <h6>Result orientation</h6>
-                      <p>
-                        Our team always focuses on the result to be obtained. We
-                        are attentive to all the workflow details, but most
-                        importantly, we clearly see the final goal.
-                      </p>
-                    </div>
+            </div> */}
+
+
+
+            <div className="col-xl-4 col-lg-4 col-md-6 ">
+              <div className="servicefor">
+                <div className="singleservice">
+                  <div className=" image">
+                    <a href="#">
+                      <img src={collab} alt="" />
+                    </a>
+                  </div>
+                  <div className="headingweb first-color">
+                    <h3>Strong collaboration</h3>
+                  </div>
+                  <div className="paragraph">
+                    <p>
+                    Each team member of our company acts as a leader.
+                        Combining creative and business mindsets Technogigz team
+                        drives successful projects
+                    </p>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-              <a href="">
-                <div class="card-flyer">
-                  <div class="text-box">
-                    <div class="image-box">
+
+
+            <div className="col-xl-4 col-lg-4 col-md-6 ">
+              <div className="servicefor">
+                <div className="singleservice">
+                  <div className=" image">
+                    <a href="#">
+                      <img src={result} alt="" />
+                    </a>
+                  </div>
+                  <div className="headingweb first-color">
+                    <h3>Result orientation</h3>
+                  </div>
+                  <div className="paragraph">
+                    <p>
+                    Our team always focuses on the result to be obtained. We
+                        are attentive to all the workflow details, but most
+                        importantly, we clearly see the final goal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="col-xl-4 col-lg-4 col-md-6 ">
+              <div className="servicefor">
+                <div className="singleservice">
+                  <div className=" image">
+                    <a href="#">
                       <img src={growth} alt="" />
-                    </div>
-                    <div class="text-container">
-                      <h6>Growth</h6>
-                      <p>
-                        We keep pace with modern trends and sometimes it is
+                    </a>
+                  </div>
+                  <div className="headingweb first-color">
+                    <h3>Growth</h3>
+                  </div>
+                  <div className="paragraph">
+                    <p>
+                    We keep pace with modern trends and sometimes it is
                         necessary to step out of our comfort zone. And this
                         exactly moves us forward to be better and enhance our
                         skills.
-                      </p>
-                    </div>
+                    </p>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-              <a href="">
-                <div class="card-flyer">
-                  <div class="text-box">
-                    <div class="image-box">
+
+            <div className="col-xl-4 col-lg-4 col-md-6 ">
+              <div className="servicefor">
+                <div className="singleservice">
+                  <div className=" image">
+                    <a href="#">
                       <img src={team} alt="" />
-                    </div>
-                    <div class="text-container">
-                      <h6>Team spirit</h6>
-                      <p>
-                        Our common success depends on team spirit, mutual
+                    </a>
+                  </div>
+                  <div className="headingweb first-color">
+                    <h3>Team spirit</h3>
+                  </div>
+                  <div className="paragraph">
+                    <p>
+                    Our common success depends on team spirit, mutual
                         assistance, solidarity, and a warm atmosphere. We are
                         strong alone, but together we are invincible.
-                      </p>
-                    </div>
+                    </p>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-              <a href="">
-                <div class="card-flyer">
-                  <div class="text-box">
-                    <div class="image-box">
+
+            <div className="col-xl-4 col-lg-4 col-md-6 ">
+              <div className="servicefor">
+                <div className="singleservice">
+                  <div className=" image">
+                    <a href="#">
                       <img src={open} alt="" />
-                    </div>
-                    <div class="text-container">
-                      <h6>Openness</h6>
-                      <p>
-                        We, at Technogigz, believe that an open-minded and
+                    </a>
+                  </div>
+                  <div className="headingweb first-color">
+                    <h3>Openness</h3>
+                  </div>
+                  <div className="paragraph">
+                    <p>
+                    We, at Technogigz, believe that an open-minded and
                         unbiased approach can drive solid results. We are open
                         to constructive criticism.
-                      </p>
-                    </div>
+                    </p>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-              <a href="">
-                <div class="card-flyer">
-                  <div class="text-box">
-                    <div class="image-box">
+            <div className="col-xl-4 col-lg-4 col-md-6 ">
+              <div className="servicefor">
+                <div className="singleservice">
+                  <div className=" image">
+                    <a href="#">
                       <img src={trans} alt="" />
-                    </div>
-                    <div class="text-container">
-                      <h6>Transparency</h6>
-                      <p>
-                        We adhere to an approach that each step of the design
+                    </a>
+                  </div>
+                  <div className="headingweb first-color">
+                    <h3>Transparency</h3>
+                  </div>
+                  <div className="paragraph">
+                    <p>
+                    We adhere to an approach that each step of the design
                         and development process needs to be transparent for all
                         members of the project.
-                      </p>
-                    </div>
+                    </p>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
+
+
+
           </div>
 
           {/* about us */}

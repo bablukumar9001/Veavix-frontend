@@ -9,6 +9,8 @@ import ContactForm from "./components/contact/ContactForm";
 import MainIndex from "./components/MainIndex";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import Blogs from "./components/Blogs";
+import Footer2 from "./components/Footer2";
 
 const App = () => {
   return (
@@ -24,9 +26,11 @@ const App = () => {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/ContactForm" element={<ContactForm />}></Route>
+          <Route path="/Blogs" element={<Blogs />}></Route>
         </Routes>
 
         <Footer />
+        <Footer2 />
       </BrowserRouter>
     </>
   );

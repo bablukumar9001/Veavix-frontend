@@ -33,3 +33,7 @@ body {
   /* background: #f7f7f7; */
   background: none;
 }
+.bg-dark {
+
+  z-index: 1;
+}

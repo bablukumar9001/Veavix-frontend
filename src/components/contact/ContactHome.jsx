@@ -1,10 +1,11 @@
 import React from "react";
 import techimage from "/contact.png";
+import "./css/contacthome.css"
 
 const ContactHome = () => {
   return (
     <>
-      <section className="home-service">
+      {/* <section className="home-service">
         <div className="container homepage">
           <div className="row">
             <div className="col-lg-6 box1 text-center">
@@ -25,7 +26,29 @@ const ContactHome = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+<section id="home" className="home">
+      {/* <h1>Bring your Business Online</h1> */}
+      <h1>Your Ideas, Our Solution</h1>
+      <h2>Contact Us And We Will Put Your Ideas Into Action.</h2>
+    <div className="wave wave1"></div>
+    <div className="wave wave2"></div>
+    <div className="wave wave3"></div>
+  </section>
+
+  <section id="about" className="about">
+    <h1 className="heading">Contact us</h1>
+    <div className="row">
+        <div className="content">
+            <h3>We make creativity work for your brand!</h3>
+            <p>Ours is a team of creatives that is brainstorming on great ideas,<b> all. the. time.</b><br/>
+                With our skills put together, you get an ensemble capable of doing anything and everything your brand needs.</p>
+            {/* <a href="#"><button className="btn">Read More</button></a> */}
+        </div>
+    </div>
+  </section>
+
     </>
   );
 };

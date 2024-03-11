@@ -1,31 +1,110 @@
 import React from "react";
-import workimage from "/workimage.png";
+// import workimage from "/workimage.png";
+import "../services/css/howwork.css";
 
 const HowWork = () => {
   return (
     <>
-      <div className="container mt-5">
-        <h1> How It Works ?</h1>
-        <p className="mt-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem, odio tenetur ad optio neque unde laborum autem labore
-          quisquam nesciunt.
-        </p>
-        <img src={workimage} alt="" />
-        <div className="text-center mt-5" style={{ backgroundColor: "white" }}>
-          <h1>More About Brave Solutions</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            laudantium debitis magnam quidem, assumenda ipsa impedit
-            necessitatibus tempore non, molestias nemo laborum quam minima
-            accusantium.
-          </p>
-          <button type="button" className="btn btn-primary">
-            <a href="about"></a>
-            Know More
-          </button>
+      <section class="development_process_sec section-padding">
+        <div class="container">
+          <div class="main-heading-box main-heading-box-inner">
+            <h2 style={{ fontSize: "40px", letterSpacing: "2px" }}>
+              Veavix Development Process
+            </h2>
+            <p style={{ fontSize: "20px" }}>
+              We believe in simplifying technology for you.
+            </p>
+            <p style={{ fontSize: "20px", lineHeight: "1.2" }}>
+              Our development process is carefully curated to guide you from one
+              end to another successfully. At veavix we give you number of
+              reasons to choose us, one of them is our smartly designed process.
+              From Development to Optimisation we work effectively to perfect
+              you enterprise needs.
+            </p>
+          </div>
+          <div class="row">
+            <div
+              class="col-md-2 dev_process_blk"
+              style={{ position: "relative" }}
+            >
+              <article>
+                <figure>
+                  <img src="/Service/strategy.svg" alt="Strategy" class="lazyload" />
+                </figure>
+                <figcaption>
+                  <h4>Strategy</h4>
+                </figcaption>
+              </article>
+            </div>
+            <div class="col-md-2 dev_process_blk">
+              <article>
+                <figure>
+                  <img
+                    alt="Analysis & Planning"
+                    class="lazyload"
+                    src="/Service/analysis.svg"
+                  />
+                </figure>
+                <figcaption>
+                  <h4>Analysis & Planning</h4>
+                </figcaption>
+              </article>
+            </div>
+            <div class="col-md-2 dev_process_blk">
+              <article>
+                <figure>
+                  <img
+                    alt="UI/UX Design"
+                    class="lazyload"
+                    src="/Service/ui-design.svg"
+                  />
+                </figure>
+                <figcaption>
+                  <h4>UI/UX Design</h4>
+                </figcaption>
+              </article>
+            </div>
+            <div class="col-md-2 dev_process_blk">
+              <article>
+                <figure>
+                  <img
+                    alt="Development Process"
+                    class="lazyload"
+                    src="/Service/development-process.svg"
+                  />
+                </figure>
+                <figcaption>
+                  <h4>Development Process</h4>
+                </figcaption>
+              </article>
+            </div>
+            <div class="col-md-2 dev_process_blk">
+              <article>
+                <figure>
+                  <img alt="Testing" class="lazyload" src="/public/Service/testing.svg" />
+                </figure>
+                <figcaption>
+                  <h4>Testing</h4>
+                </figcaption>
+              </article>
+            </div>
+            <div class="col-md-2 dev_process_blk">
+              <article>
+                <figure>
+                  <img
+                    alt="Publish & Launch"
+                    class="lazyload"
+                    src="/Service/publish.svg"
+                  />
+                </figure>
+                <figcaption>
+                  <h4>Publish & Launch</h4>
+                </figcaption>
+              </article>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

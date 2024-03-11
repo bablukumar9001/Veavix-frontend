@@ -6,6 +6,23 @@ import logo from "/Veavixlogoo.png";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+
+  //show login page of node js backend
+
+  const handleLoginClick = () => {
+    fetch("/login")
+      .then((response) => response.text())
+      .then((html) => {
+        // console.log(html);
+
+        setShowLogin(true);
+      })
+      .catch((error) => {
+        console.error("Error fetching login page:", error);
+      });
+  };
+
   useEffect(() => {
     // show navbar on scroll
 
@@ -15,7 +32,7 @@ const Navbar = () => {
       } else {
         setIsActive(false);
       }
-      console.log("hello");
+      // console.log("hello");
     };
 
     window.addEventListener("scroll", changeBackground);
@@ -30,9 +47,8 @@ const Navbar = () => {
         >
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
-              {/* <img src={logo} alt="" style={{ height: "55px" }} /> */}
+              <img src={logo} alt="" style={{ height: "55px" }} />
             </Link>
-            <h3>Brave Solutions</h3>
             <button
               className="navbar-toggler"
               type="button"
@@ -90,6 +106,17 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/Contact">
                     Contact Us
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link className="nav-link" to="/Blogs">
+                    Blogs
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" onClick={handleLoginClick}>
+                    <strong>Admin</strong>
                   </Link>
                 </li>
               </ul>

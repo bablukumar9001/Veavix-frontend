@@ -6,6 +6,7 @@ import Frontend from "./technologies/Frontend";
 import Backend from "./technologies/Backend";
 import Databases from "./technologies/Databases";
 import ContactForm from "./contact/ContactForm";
+import Development from "./technologies/Development";
 // import Footer from "./Footer";
 
 const Technologies = () => {
@@ -16,6 +17,7 @@ const Technologies = () => {
       <Frontend />
       <Backend />
       <Databases />
+      <Development />
 
       <ContactForm />
     </>

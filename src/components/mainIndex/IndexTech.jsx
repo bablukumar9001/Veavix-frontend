@@ -30,7 +30,7 @@ const IndexTech = () => {
               </div>
             </div>
           </div>
-          <div className="row mt-3">
+          <div className="row">
             <ul
               className="nav nav-pills justify-content-center  mb-3"
               id="pills-tab"
@@ -93,7 +93,7 @@ const IndexTech = () => {
               >
                 <div className="row">
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-angular mob-logo"
                         style={{ color: "#f7b018" }}
@@ -102,7 +102,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">ANGULAR</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-react mob-logo"
                         style={{ color: "#0446b9" }}
@@ -111,7 +111,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">REACT</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-html5 mob-logo"
                         style={{ color: "#040506" }}
@@ -120,7 +120,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">HTML</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-css3 mob-logo"
                         style={{ color: "#125bd9" }}
@@ -129,7 +129,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">CSS</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-square-js mob-logo"
                         style={{ color: "#f96534" }}
@@ -138,7 +138,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">JAVASCRIPT</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-vuejs mob-logo"
                         style={{ color: "#33cc45" }}
@@ -160,7 +160,7 @@ const IndexTech = () => {
               >
                 <div className="row mt-3">
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-php mob-logo"
                         style={{ color: "#f7b018" }}
@@ -169,7 +169,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">PHP</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-laravel mob-logo"
                         style={{ color: "#0446b9" }}
@@ -178,7 +178,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">LARAVEL</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-python mob-logo"
                         style={{ color: "#c8ae09" }}
@@ -187,13 +187,13 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">PYTHON</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={django} alt="" />
                     </div>
                     <b className="mt-3 mob-text">DJANGO</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <i
                         class="fa-brands fa-node mob-logo"
                         style={{ color: "#067a13" }}
@@ -202,7 +202,7 @@ const IndexTech = () => {
                     <b className="mt-3 mob-text">NODEJS</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={ruby} alt="" />
                     </div>
                     <b className="mt-3 mob-text">RUBY</b>
@@ -221,37 +221,37 @@ const IndexTech = () => {
               >
                 <div className="row mt-3">
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={mongodb} alt="" />
                     </div>
                     <b className="mt-3 mob-text">MongoDB</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={mysql} alt="" />
                     </div>
                     <b className="mt-3 mob-text">mySQL</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={oracle} alt="" />
                     </div>
                     <b className="mt-3 mob-text">ORACLE</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={postge} alt="" />
                     </div>
                     <b className="mt-3 mob-text">PostgeSQL</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={sqlserver} alt="" />
                     </div>
                     <b className="mt-3 mob-text">SQLserver</b>
                   </div>
                   <div class="col-lg-4 col-6 text-center">
-                    <div class="mt-3">
+                    <div class="">
                       <img width={60} src={redis} alt="" />
                     </div>
                     <b className="mt-3 mob-text">REDIS</b>

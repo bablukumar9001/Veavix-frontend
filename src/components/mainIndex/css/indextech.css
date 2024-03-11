@@ -54,3 +54,14 @@
   color: black;
   /* background: white; */
 }
+
+
+ /* contact us  */
+
+align-items-center {
+  align-items: center !important;
+}
+.ful h2,
+.ful p {
+  color: white;
+}

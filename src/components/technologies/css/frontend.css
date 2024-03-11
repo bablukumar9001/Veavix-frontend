@@ -4,14 +4,28 @@
 
 .frontendbox1 {
   margin-right: 20px;
-  border: 3px solid var(--blue-color);
+  /* border: 3px solid var(--blue-color); */
+  /* border: 3px solid #202c8336; */
+  -webkit-box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
+  box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
   border-radius: 8px;
-  background: white;
+  /* background: white; */
+  /* background: #3946ab36; */
 }
 .frontendbox2 {
-  border: 3px solid var(--blue-color);
+  /* border: 3px solid var(--blue-color); */
+  /* border: 3px solid #222a6836; */
   border-radius: 8px;
+  -webkit-box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
+  box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
   /* height: 330px; */
   margin-left: 20px;
-  background: white;
+  /* background: white; */
+  /* background: #3946ab36; */
+}
+
+.fa-xl {
+  font-size: 4.5em !important; 
+  line-height: .04167em;
+  vertical-align: -0.125em;
 }

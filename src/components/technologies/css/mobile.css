@@ -7,17 +7,24 @@
   /* width: 300px;
   height: 330px; */
   margin-right: 20px;
-  border: 3px solid var(--blue-color);
+  /* border: 3px solid #2b326436; */
+  -webkit-box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
+  box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
+
   border-radius: 8px;
-  background: white;
+  /* background: white; */
+  /* background: #3946ab36; */
 }
 .mobilebox2 {
   /* background-color: aqua; */
-  border: 3px solid var(--blue-color);
+  /* border: 3px solid #2b326436; */
+  -webkit-box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
+  box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
   border-radius: 8px;
   /* height: 330px; */
   margin-left: 20px;
-  background: white;
+  /* background: white; */
+  /* background: #3946ab36; */
 }
 .mobile-section {
   padding: 20px;

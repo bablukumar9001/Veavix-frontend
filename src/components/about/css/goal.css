@@ -1,0 +1,23 @@
+  section.about-mission-vision-sec2 {
+    padding: 40px 0;
+    position: relative;
+    margin-bottom:-40px;
+}
+    section.about-mission-vision-sec2:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #333a65;
+    top: 0;
+}
+section.about-mission-vision-sec2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 31px;
+    height: 100%;
+    background-color: #333a65;
+    top: 0;
+}

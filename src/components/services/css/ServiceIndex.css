@@ -1,3 +1,141 @@
 .cimage {
   height: 450px;
 }
+
+
+/* ---------------------------------------------------------------
+
+
+*/
+section{
+  padding: 0;
+}
+
+.home{
+  min-height: 100vh;
+  width: 100vw;
+  /* background-image: url(/service/img1.jpg); */
+  background-image: url(/public/Service/img1.jpg);
+  background-size: cover;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-flow: column;
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+
+}
+
+
+.home h1{
+  color: #fff;
+  font-size: 4.5rem;
+}
+
+.home h2{
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.home .wave{
+  position: absolute;
+  bottom: -.5rem;
+  left: 0;
+  height: 11rem;
+  width: 100%;
+  background: url(/Service/wave.png);
+  background-size: 100rem 11rem;
+  animation: waves 8s linear infinite;
+  background-repeat: repeat-x;
+}
+
+.home .wave2{
+  animation-direction: reverse;
+  animation-duration: 6s;
+  opacity: .3;
+}
+
+.home .wave3{
+  animation-duration: 4s;
+  opacity: .5;
+}
+
+@keyframes waves{
+  0%{
+      background-position-x: 0;
+  }
+  100%{
+      background-position-x: 100rem;
+  }
+}
+
+
+.about{
+  min-height: 55vh;
+  width: 100vw;
+  top: -6rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  line-height: 10rem;
+}
+
+.about .row{
+  line-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 4rem;
+}
+
+.about .row .content{
+  text-align: center;
+}
+
+.about .row .content h3{
+  font-size: 3rem;
+  color: black;
+}
+
+.about .row .content p{
+  font-size: 2rem;
+  color: #333;
+  padding: 1rem 0;
+}
+
+.heading, .clients .section-header h2, .section-head h1, .testimonials .section-header h2, .section-head-1 h4{
+  margin: 2rem;
+  padding-top: 6rem;
+  display: inline-block;
+  font-size: 3.5rem;
+  color: #002e5f;
+  position: relative;
+  letter-spacing: .2rem;
+}
+
+.heading::before, .heading::after, .clients .section-header h2::before, .clients .section-header h2::after, .section-head h1::before, .section-head h1::after, .testimonials .section-header h2::before, .testimonials .section-header h2::after, .section-head-1 h4::before, .section-head-1 h4::after{
+  content: '';
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-top: .4rem solid #002e5f;
+  border-left: .4rem solid #002e5f;
+}
+
+.faq .heading::before, .faq .heading::after{
+  border-top: .4rem solid #00bfff;
+  border-left: .4rem solid #00bfff;
+}
+
+.heading::before, .clients .section-header h2::before, .section-head h1::before, .testimonials .section-header h2::before, .section-head-1 h4::before{
+  top: 5.8rem;
+  left: -2rem;
+}
+
+.heading::after, .clients .section-header h2::after, .section-head h1::after, .testimonials .section-header h2::after, .section-head-1 h4::after{
+  bottom: -.5rem;
+  right: -2rem;
+  transform: rotate(180deg);
+}

@@ -4,6 +4,7 @@ import Allservices from "./services/Allservices";
 import Wework from "./services/Wework";
 import HowWork from "./services/HowWork";
 import ContactForm from "./contact/ContactForm";
+import ContactUss from "./services/ContactUss";
 
 const Services = () => {
   return (
@@ -13,7 +14,8 @@ const Services = () => {
         <Allservices />
         <Wework />
         <HowWork />
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <ContactUss />
       </section>
     </>
   );
