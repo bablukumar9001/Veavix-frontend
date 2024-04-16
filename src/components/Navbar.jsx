@@ -114,21 +114,21 @@ const Navbar = () => {
                     Blogs
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" onClick={handleLoginClick}>
                     <strong>Admin</strong>
                   </Link>
-                </li>
+                </li> */}
               </ul>
               <Link to="/ContactForm">
                 <button
-                  className="rn-btn  main-btn-navbar ms-5"
+                  className="mt_btn_yellow mt_btn_yellow ms-5"
                   type="button"
                   data-bs-toggle="offcanvas"
                   data-bs-target="#offcanvasTop"
                   aria-controls="offcanvasTop"
                   data-bs-scroll="true"
-                  style={{ color: "white" }}
+                  // style={{ color: "white" }}
                 >
                   Get In Touch
                 </button>

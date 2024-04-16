@@ -77,9 +77,73 @@ textarea {
   background-color: #ff014f;
   color: white;
 }
-.navbar-light .navbar-nav .nav-link {
+ .navbar-light .navbar-nav .nav-link {
   color: rgb(0 0 0 / 67%);
 }
+/*
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(149, 34, 34, 0.67);
+  
+}
+
+nav ul li a:hover::after,
+nav ul li a:focus::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 80%;
+  height: 2px;
+  background-color: #ff014f;
+  transition: all 2s ease;
+} */
+
+
+
+
+/* ---------------------------------------- */
+
+
+
+
+
+
+
+.nav-item .nav-link::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: red;
+  transition: 0.3s;
+  bottom: 0;
+}
+
+.nav-item .nav-link.active::after,
+.nav-item .nav-link:focus::after,
+.nav-item .nav-link:hover::after {
+  width: 85%;
+
+}
+
+.nav-item .nav-link.active,
+ .nav-item .nav-link:hover {
+  color: rgb(231, 3, 3);
+  /* font-weight: 600; */
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+
 
 @keyframes fadeInDown {
   0% {

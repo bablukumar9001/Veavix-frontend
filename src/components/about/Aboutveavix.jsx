@@ -1,49 +1,53 @@
 import React from "react";
+import "./css/aboutveavix.css";
+import CountUp from 'react-countup';
+
 
 const Aboutveavix = () => {
   return (
     <>
-      <section class="value1" style={{ background: "rgb(234, 241, 250)" }}>
+      <section class="mt-5" style={{ background: "rgb(234, 241, 250)" }}>
         <div
-          class=" finance-one_pattern"
-          //   style="background:url(pattern-16.png);background-size:conver;background-repeat:no-repeat;"
+          class="finance-one_pattern"
+          style={{ 
+            background: 'url(/pattern-16.png)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}
         ></div>
+
         <div
           class=" finance-one_pattern-two"
-          //   style="background:url(pattern-17.png);background-size:conver;background-repeat:no-repeat;"
+      style={{ 
+      background: 'url(/pattern-17.png)',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat'
+    }}
         ></div>
 
         <div class="container container1">
           <div class="row">
             <div class="col-lg-6 col-12 ">
-              <div class="item itemimageabout">
+              <div class="itemimageabout">
                 <div class="circle"></div>
                 <div class="image1 single-thumb">
                   <img 
-                    class="  shadow2 "
+                    class="shadow2"
                     data-aos="reveal-item"
-                    // src="/about/about-us.webp"
+                    src="/about/about-us.webp"
                     alt=""
                   />
                 </div>
                 <div class="image2 single-thumb">
                   <img
-                    class="  shadow2 "
+                    class="shadow2"
                     data-aos="reveal-item"
-                    // src="/about/photo-7-1 (1).jpg"
+                    src="/about/about-us-2.jpg"
                     alt=""
                   />
                 </div>
               </div>
-              {/* <!-- <div class=" wow fadeInLeft mt-30 text-center"  data-animation="animated fadeInLeft"  style="padding-top:50px;position:relative;">
-                     <p style="color:#333a65;font-size:22px;font-weight:500;">Development is always easy, it's the inexperienced team which makes it difficult.  </p>
-                   
-                     <button type="button" class="mt_btn_yellow "  data-toggle="modal" data-target="#myModal " style="padding:15px 30px;font-size:15px;">
-                     Request A Quote
-                  
-                            </button>
-                    
-                </div> --> */}
+        
             </div>
 
             <div class="col-lg-6 col-12 center aboutsection ">
@@ -95,12 +99,16 @@ const Aboutveavix = () => {
                   <div class="counter">
                     <span
                       class="js-counter"
-                      data-number="200"
+                      // data-number="200"
                       style={{ fontSize: "35px", color: "#ffac00" }}
                     >
-                      0
+                      <CountUp start={0} end={200} duration={5} decimals={0}  />
+
                     </span>
+                    
                     <span style={{ fontSize: "35px", color: "#ffac00" }}>
+
+
                       +
                     </span>
                     <p>Apps Developed</p>
@@ -113,7 +121,8 @@ const Aboutveavix = () => {
                       data-number="20"
                       style={{ fontSize: "35px", color: "#ffac00" }}
                     >
-                      0
+                     <CountUp start={0} end={20} duration={5} decimals={0}  />
+
                     </span>
                     <span style={{ fontSize: "35px", color: "#ffac00" }}>
                       +
@@ -128,7 +137,8 @@ const Aboutveavix = () => {
                       data-number="100"
                       style={{ fontSize: "35px", color: "#ffac00" }}
                     >
-                      0
+                      <CountUp start={0} end={100} duration={5} decimals={0}  />
+
                     </span>
                     <span style={{ fontSize: "35px", color: "#ffac00" }}>
                       %

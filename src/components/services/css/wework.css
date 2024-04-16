@@ -76,7 +76,7 @@
 }
 
 .bg-gradient7 {
-  background: #ffe2e2;
+  background: #f2f2f3 !important;
   background: -moz-linear-gradient(top, #ffe2e2 0%, #fff9f4 100%);
   background: -webkit-linear-gradient(top, #ffe2e2 0%, #fff9f4 100%);
   background: linear-gradient(to bottom, #ffe2e2 0%, #fff9f4 100%);
@@ -93,7 +93,7 @@
 }
 
 .wide-sblock {
-  display: inline-flex;
+  /* display: inline-flex; */
   text-align: left;
   padding: 30px 20px;
 }
@@ -105,8 +105,10 @@
   background-position: top right;
   background-repeat: no-repeat;
   /* text-align: center; */
-  padding: 50px 20px;
-  margin: 0;
+  /* padding: 50px 20px;
+  margin: 0; */
+  padding: 76px 37px;
+    margin: 11px;
   position: relative;
   border: 1px solid #d4f0ff;
   -webkit-border-radius: 8px;

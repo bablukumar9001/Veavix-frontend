@@ -15,7 +15,7 @@ const About = () => {
       <Aboutveavix />
       <WhyChooseUs />
       <Vision />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Goal />
     </>
   );

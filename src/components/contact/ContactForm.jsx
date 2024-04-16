@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./css/contactform.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import contactform from "/contactform.png";
+import contactform from "/contact.png";
 
 const ContactForm = () => {
   const [user, setUser] = useState({

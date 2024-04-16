@@ -5,7 +5,7 @@ const NewContactForm = () => {
   return (
     <>
       <section
-        class="contactiages"
+        class="contactiages mt-5"
         style={{ marginTop: "-30px " }}
         // style="background:url('map-1.png')"
       >
@@ -22,44 +22,17 @@ const NewContactForm = () => {
             </div> */}
 
             <div className="col-lg-6 contactbox1 text-center">
-              <div className="image-fluid">
-                {/* <img src={contactform} alt="" height={120} /> */}
-              </div>
+             
               <h1 className="mt-3"> Get in touch </h1>
               <p>
                 Got a question? We'd love to hear from you. Send us a message
                 and we'll respond as soon as possible.
               </p>
-              <div className="mt-2">
-                <div class="my-2">
-                  <a
-                    style={{ color: "white" }}
-                    href="tel:+91 9096743051"
-                    class="btn btn-gradient py-2 px-3"
-                  >
-                    <i class="fa-solid fa-phone me-2"></i> +919578455245
-                  </a>
-                </div>
-                <div class="my-2">
-                  <a
-                    style={{ color: "white" }}
-                    href="mailto:info@veavix.com"
-                    class="btn btn-gradient py-2 px-3"
-                  >
-                    <i class="fa-solid fa-envelope me-2"></i> info@veavix.com
-                  </a>
-                </div>
-                <div>
-                  <a
-                    class="btn btn-gradient py-2 px-3"
-                    style={{ color: "white" }}
-                  >
-                    <i class="fa-solid fa-location-dot me-2"></i>
-                    701, c-tower, sector 63, Noida, India.
-                  </a>
-                </div>
+              <div className="image-fluid">
+                <img src="/public/contact.png" alt="" height={400} />
               </div>
-              <div>
+           
+              {/* <div>
                 <ul className="list-unstyled-contact d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mt-4 mb-md-0">
                   <li>
                     <a href="https://www.instagram.com/abhay__9001/" target=" ">
@@ -90,7 +63,7 @@ const NewContactForm = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
 
 
@@ -156,7 +129,7 @@ const NewContactForm = () => {
       </section>
       {/* contact details */}
 
-      <section>
+      {/* <section>
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -203,11 +176,11 @@ const NewContactForm = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 {/* social links */}
 
-    <div class="footer1">
+    <div class="footer1 mt-5">
         <div class="social">
           <p>Follow me on social media</p>
           <ul class="wrapper">
@@ -245,7 +218,7 @@ const NewContactForm = () => {
             
           </ul>
         </div>
-        {/* <!-- <div class="final_text"></div> --> */}
+       
        
 </div>
 

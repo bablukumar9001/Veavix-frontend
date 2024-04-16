@@ -645,7 +645,8 @@
     }
     
     .mt_btn_yellow:hover {
-        color: #ffac00
+        /* color: #ffac00 */
+        color: #ff014f
     }
     
     .mt_btn_green:hover {
@@ -685,7 +686,8 @@
     }
     
     .mt_btn_yellow:before {
-        background-color: #ffac00
+        /* background-color: #ffac00 */
+        background-color: #ff014f
     }
     
     .mt_btn_purple:before {
@@ -729,7 +731,8 @@
     }
     
     .mt_btn_yellow:after {
-        border-color: #ffac00
+        /* border-color: #ffac00 */
+        border-color: #ff014f
     }
     
     .mt_btn_purple:after {

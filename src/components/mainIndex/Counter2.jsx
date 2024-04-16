@@ -1,12 +1,13 @@
 import React from 'react'
 import "/public/css/newstyle.css"
+import CountUp from 'react-countup';
 
 const Counter2 = () => {
   return (
    <>
 
 
-<section className="indexabout" >
+<section className="indexabout mt-5" >
         <div className="container">
             <div className="row">
                
@@ -30,36 +31,69 @@ const Counter2 = () => {
   
                 <div className="funfact">
                        <div className="row">
-                       <div className="col-lg-4 col-sm-6 col-12  " data-aos="zoom-in">
+                       {/* <div className="col-lg-4 col-sm-6 col-12  " data-aos="zoom-in">
 							<div className="funfct srcl1"><img src="startup.svg" data-aos="fade-up" data-aos-delay="600" alt="niwax app development template"/><span className="js-counter services-cuntr" data-number="2"  >2</span><span className="services-cuntr" >+</span>
 								<p>Years<br/> Experience</p>
 							</div>
-						</div>
-                        <div className="col-lg-4 col-sm-6 col-12  " data-aos="zoom-in">
-							<div className="funfct srcl2"><img src="team.svg" data-aos="fade-up" data-aos-delay="800" alt="niwax app development template"/><span className="js-counter services-cuntr" data-number="80"  >80</span><span className="services-cuntr" >+</span>
-								<p>Talented<br/> Squad</p>
-							</div>
-						</div>
-                        <div className="col-lg-4  col-sm-6 col-12 " data-aos="zoom-in">
-							<div className="funfct srcl3"><img src="deal.svg" data-aos="fade-up"  data-aos-delay="1000" alt="niwax app development template"/><span className="js-counter services-cuntr" data-number="100" >100</span><span className="services-cuntr" >%</span>
-								<p>client<br/> Satisfaction</p>
-							</div>
-						</div>
-                        <div className="col-lg-4 col-sm-6 col-12  " data-aos="zoom-in">
-							<div className="funfct srcl2"><img src="computers.svg" data-aos="fade-up"  data-aos-delay="600" alt="niwax app development template"/><span className="js-counter services-cuntr" data-number="150" >150</span><span className="services-cuntr" >M+</span>
-								<p>App<br/> Installs</p>
-							</div>
-						</div>
-                        <div className="col-lg-4   col-sm-6 col-12 " data-aos="zoom-in">
-							<div className="funfct srcl3"><img src="world.svg" data-aos="fade-up"  data-aos-delay="800" alt="niwax app development template"/><span className="js-counter services-cuntr" data-number="20"  >20</span><span className="services-cuntr" >+</span>
-								<p>Countries<br/> Served</p>
-							</div>
-						</div>
-                        <div className="col-lg-4 col-sm-6 col-12  " data-aos="zoom-in">
-							<div className="funfct srcl1"><img src="mobile.svg" data-aos="fade-up"  data-aos-delay="1000" alt="niwax app development template"/><span className="js-counter services-cuntr"  data-number="500"  >500</span><span className="services-cuntr" >M+</span>
-								<p>Funds<br/> Raised</p>
-							</div>
-						</div>
+						</div> */}
+
+                     <div className="col-lg-4 col-sm-6 col-12" data-aos="zoom-in">
+                                    <div className="funfct srcl1">
+                                        <img src="startup.svg" alt="niwax app development template" data-aos="fade-up" data-aos-delay="600" />
+                                        
+                                        <span className="services-cuntr"><CountUp start={0} end={100} duration={5} decimals={0}  />+</span>
+                                        <p>Years<br />Experience</p>
+                                    </div>
+                                    </div>
+                                    
+                     <div className="col-lg-4 col-sm-6 col-12" data-aos="zoom-in">
+                                    <div className="funfct srcl2">
+                                        <img src="team.svg" alt="niwax app development template" data-aos="fade-up" data-aos-delay="600" />
+                                        
+                                        <span className="services-cuntr"><CountUp start={0} end={80} duration={5} decimals={0}  />+</span>
+                                        <p>Years<br />Experience</p>
+                                    </div>
+                                    </div>
+
+                     <div className="col-lg-4 col-sm-6 col-12" data-aos="zoom-in">
+                                    <div className="funfct srcl3">
+                                        <img src="deal.svg" alt="niwax app development template" data-aos="fade-up" data-aos-delay="600" />
+                                        
+                                        <span className="services-cuntr"><CountUp start={0} end={150} duration={5} decimals={0}  />M</span>
+                                        <p>Years<br />Experience</p>
+                                    </div>
+                     </div>
+
+                     <div className="col-lg-4 col-sm-6 col-12" data-aos="zoom-in">
+                                    <div className="funfct srcl2">
+                                        <img src="computers.svg" alt="niwax app development template" data-aos="fade-up" data-aos-delay="600" />
+                                        
+                                        <span className="services-cuntr"><CountUp start={0} end={20} duration={5} decimals={0}  />+</span>
+                                        <p>Years<br />Experience</p>
+                                    </div>
+                     </div>
+
+                     <div className="col-lg-4 col-sm-6 col-12" data-aos="zoom-in">
+                                    <div className="funfct srcl3">
+                                        <img src="world.svg" alt="niwax app development template" data-aos="fade-up" data-aos-delay="600" />
+                                        
+                                        <span className="services-cuntr"><CountUp start={0} end={500} duration={5} decimals={0}  />M</span>
+                                        <p>Years<br />Experience</p>
+                                    </div>
+                     </div>
+
+                     <div className="col-lg-4 col-sm-6 col-12" data-aos="zoom-in">
+                                    <div className="funfct srcl1">
+                                        <img src="mobile.svg" alt="niwax app development template" data-aos="fade-up" data-aos-delay="600" />
+                                        
+                                        <span className="services-cuntr"><CountUp start={0} end={100} duration={5} decimals={0}  />%</span>
+                                        <p>Years<br />Experience</p>
+                                    </div>
+                     </div>
+
+
+                   
+                 
                        </div>
                   </div>
                    

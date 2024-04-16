@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Blogs from "./components/Blogs";
 import Footer2 from "./components/Footer2";
+import NewContactForm from "./components/contact/NewContactForm";
 
 const App = () => {
   return (
@@ -25,12 +26,13 @@ const App = () => {
           <Route path="/Services" element={<Services />}></Route>
           <Route path="/About" element={<About />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
-          <Route path="/ContactForm" element={<ContactForm />}></Route>
+          <Route path="/ContactForm" element={<NewContactForm />}></Route>
           <Route path="/Blogs" element={<Blogs />}></Route>
         </Routes>
-
+         
+     
         <Footer />
-        <Footer2 />
+        {/* <Footer2 /> */}
       </BrowserRouter>
     </>
   );

@@ -1,7 +1,7 @@
 .index-home {
-  background: #e2e1f8;
+  background: #f2f2f3;
   /* background-image: url("background.png"); */
-  margin-top: -52px;
+  /* margin-top: -52px; */
   color: black;
   padding-bottom: 70px;
 }
@@ -9,7 +9,7 @@
   color: black;
 }
 .animate-text {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   color: #ff014f;
 }
@@ -30,10 +30,12 @@
 }
 
 .h11 {
-  font-size: 40px;
-  margin-bottom: 25px;
+  
+  font-size: 43px;
+  margin-bottom: 44px;
   transform: translateY(70px);
   animation: slidedown 0.8s ease forwards 0.3s;
+  margin-top: -30px;
 }
 
 @keyframes slideUp {

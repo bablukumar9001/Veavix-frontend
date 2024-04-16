@@ -60,15 +60,14 @@
 }
 
 .social-icon a {
-  width: 45px;
-  height: 45px;
-  line-height: 42px;
+  width: 55px;
+  height: 55px;
+  line-height: 54px;
   font-size: 20px;
   display: inline-block;
   border: 1px solid black;
   color: #091020;
   border-radius: 100%;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

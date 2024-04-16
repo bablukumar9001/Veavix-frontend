@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
   return (
     <>
       <section>
-        <div class="container ">
+        <div class="container mt-5 ">
           <div class="feature-one__inner whychoseus">
             <div class="row">
               <div

@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/vision.css";
 
 const Vision = () => {
   return (
@@ -9,8 +10,8 @@ const Vision = () => {
             <div class="section-sub-title-box">
               <p
                 style={{
-                  //   color: "#ffae07",
-                  color: "black",
+                    color: "#ffae07",
+                  // color: "black",
                   textTransform: "uppercase",
                   letterSpacing: "0.5px",
                   fontSize: "18px",
@@ -25,8 +26,8 @@ const Vision = () => {
             <h2
               class="section-title__title"
               style={{
-                // color: "white",
-                color: "black",
+                color: "white",
+                // color: "black",
                 fontSize: "40px",
                 fontWeight: 700,
               }}
@@ -56,8 +57,8 @@ const Vision = () => {
                     <h3
                       class="team-details__top-name"
                       style={{
-                        // color: "white",
-                        color: "black",
+                        color: "white",
+                        // color: "black",
                         marginTop: "20px",
                         fontSize: "40px",
                         fontWeight: 700,
@@ -69,7 +70,7 @@ const Vision = () => {
 
                     <p
                       class="team-details__top-text-2"
-                      style={{ marginLeft: "10px", color: "black" }}
+                      style={{ marginLeft: "10px", color: "white" }}
                     >
                       At Stolz, we strive for perfection in offering our clients
                       top-notch services. Our goal is to reduce the cost of

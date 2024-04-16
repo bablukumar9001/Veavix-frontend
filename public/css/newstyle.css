@@ -129,7 +129,7 @@ p {
 
 .indexabout:before {
   content: "";
-  background: url(pattern-bg.avif);
+  background: url("/pattern-bg.avif");
   position: absolute;
   background-repeat: no-repeat;
   width: 100%;

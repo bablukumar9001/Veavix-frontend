@@ -10,23 +10,29 @@ import WhyChooseUs2 from "./mainIndex/WhyChooseUs2";
 import Whychooseus3 from "./mainIndex/Whychooseus3";
 import Acheivements from "./mainIndex/Acheivements";
 import Counter2 from "./mainIndex/Counter2";
+import Quotes from './mainIndex/Quotes';
+import ContactForm from './contact/ContactForm';
+import NewContactForm from './contact/NewContactForm';
 
 const MainIndex = () => {
   return (
-    <>
+       <>
       <IndexHome />
  <Counter2/>
 
       <Indexservice />
       <IndexTech />
       <IndexSolutions />
-      <IndexProjects />
+      {/* <IndexProjects /> */}
       <WhyChooseus />
-      <Counter />
-      <WhyChooseUs2 />
+      {/* <Counter /> */}
+      {/* <WhyChooseUs2 /> */}
+      <Quotes/>
       <Whychooseus3 />
-      <Acheivements />
-    </>
+      {/* <Acheivements /> */}
+      {/* <ContactForm/> */}
+      <NewContactForm/>
+      </>
   );
 };
 

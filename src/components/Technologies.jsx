@@ -7,6 +7,7 @@ import Backend from "./technologies/Backend";
 import Databases from "./technologies/Databases";
 import ContactForm from "./contact/ContactForm";
 import Development from "./technologies/Development";
+import NewContactForm from "./contact/NewContactForm";
 // import Footer from "./Footer";
 
 const Technologies = () => {
@@ -19,7 +20,8 @@ const Technologies = () => {
       <Databases />
       <Development />
 
-      <ContactForm />
+      {/* <ContactForm /> */}
+      <NewContactForm />
     </>
   );
 };

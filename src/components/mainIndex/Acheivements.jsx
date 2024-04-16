@@ -30,7 +30,7 @@ const Acheivements = () => {
                   by customising the app to suit your requirements.
                 </p>
               </div>
-              <div class="mt40 aboutquation">
+              {/* <div class="mt40 aboutquation">
                 <h3
                   class="mb-30 mt-30 second-color"
                   style={{
@@ -43,7 +43,7 @@ const Acheivements = () => {
                 <a class="mt_btn_yellow  mb-30" href="#">
                   Contact Us
                 </a>
-              </div>
+              </div> */}
             </div>
             <div class="col-lg-6 ">
               <div class="funfact">

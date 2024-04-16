@@ -1,9 +1,10 @@
 import React from "react";
+import "./css/goal.css";
 
 const Goal = () => {
   return (
     <>
-      <section class="about-mission-vision-sec2">
+      <section class="about-mission-vision-sec2 mt-5">
         <div class="about-mission-vision-block1">
           <div class="container">
             <div class="row">

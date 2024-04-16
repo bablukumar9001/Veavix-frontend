@@ -57,6 +57,7 @@ const Footer2 = () => {
                     <h3
                       class="footer-widget__title mb-30"
                       style={{ color: "#333a65" }}
+                      
                     >
                       Company
                     </h3>

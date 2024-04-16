@@ -1,0 +1,26 @@
+
+.team-details1{
+
+    background:#111d32;
+    z-index:2
+  }
+  .missionbefore1{
+display: flex;
+align-items: center;
+justify-content: center;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url("/public/howitwork.png");
+z-index:0;
+
+}
+  .section-title1 {
+text-align: center;
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 55px;
+}
