@@ -29,7 +29,7 @@ const NewContactForm = () => {
                 and we'll respond as soon as possible.
               </p>
               <div className="image-fluid">
-                <img src="/public/contact.png" alt="" height={400} />
+                <img src="/contact.png" alt="" height={400} />
               </div>
            
               {/* <div>
