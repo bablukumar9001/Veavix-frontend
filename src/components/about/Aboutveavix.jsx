@@ -28,24 +28,17 @@ const Aboutveavix = () => {
         <div class="container container1">
           <div class="row">
             <div class="col-lg-6 col-12 ">
-              <div class="itemimageabout">
-                <div class="circle"></div>
-                <div class="image1 single-thumb">
+              <div class="">
+                {/* <div class="circle"></div> */}
+                <div class="">
                   <img 
-                    class="shadow2"
+                    class="aboutimage1"
                     data-aos="reveal-item"
                     src="/about/about-us.webp"
                     alt=""
                   />
                 </div>
-                <div class="image2 single-thumb">
-                  <img
-                    class="shadow2"
-                    data-aos="reveal-item"
-                    src="/about/about-us-2.jpg"
-                    alt=""
-                  />
-                </div>
+               
               </div>
         
             </div>

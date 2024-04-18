@@ -3,7 +3,7 @@ import React from "react";
 const Development = () => {
   return (
     <>
-      <section class="about-four howitwork  ">
+      <section class="about-four howitwork mt-5">
         <div class="container">
           <div class="overlay"></div>
           <div class="section-title2 text-center">

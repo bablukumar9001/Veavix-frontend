@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/whychooseus.css"
 
 const WhyChooseUs = () => {
   return (
@@ -86,7 +87,7 @@ const WhyChooseUs = () => {
                 class="col-lg-4 col-md-6   col-12 wow fadeInUp "
                 data-wow-delay="200ms"
               >
-                <div class="border p-4 feature-one__single choseusback">
+                <div class="border p-4 feature-one__single  z-0 choseusback">
                   <div class="house">
                     <img
                       src="research.svg"
