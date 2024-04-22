@@ -79,3 +79,10 @@
     transform: translateX(0px);
   }
 }
+
+@media only screen and  (max-width : 768px) {
+  .techimage{
+    margin-left: 0;
+  }
+}
+

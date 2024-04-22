@@ -159,3 +159,17 @@ nav ul li a:focus::after {
     transform: translateY(0);
   }
 }
+
+
+@media (max-width: 991px) {
+  .menu-navbar-nav {
+    text-align: center;
+    border: 1px solid white;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .mylogo {
+    margin-top: 6px;
+  }
+}

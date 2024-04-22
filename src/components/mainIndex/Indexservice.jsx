@@ -21,7 +21,7 @@ const Indexservice = () => {
         style={{
           backgroundColor: "#221638",
           position: "relative",
-          zIndex: 1,
+          zIndex: 0,
           padding: "100px 0",
         }}
       >

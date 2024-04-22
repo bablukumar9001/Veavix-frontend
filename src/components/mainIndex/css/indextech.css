@@ -79,3 +79,11 @@ align-items-center {
   color: #444 !important ; 
   background-color: #f8f9fa !important;
 }
+
+
+@media (max-width: 768px) {
+  .indextech-wrapper {
+  
+    height: 862px;
+  }
+}

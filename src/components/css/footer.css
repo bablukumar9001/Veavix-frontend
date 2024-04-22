@@ -98,3 +98,32 @@ ul {
   background: #32d31d;
   border-radius: 50%;
 }
+
+
+
+@media (max-width: 768px) {
+  .footer-top-heading {
+    font-size: 17px;
+    /* padding-left: 35px; */
+  padding-left: 0px;
+
+
+    
+  }
+
+
+  .nav-link-text {
+   
+    margin: 10px;
+    /* cursor: auto; */
+  }
+
+
+  
+  .footer-section {
+    
+    padding: 0px;
+    
+  }
+
+}
