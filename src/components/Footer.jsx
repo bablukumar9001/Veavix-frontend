@@ -177,8 +177,8 @@ const Footer = () => {
                   <li class="me-5 nav-item nav-link-text">
                  
                   Phone:{" "}
-                  <a href="callto:+919096743051" class="mx-2">
-                    +91 9578455245
+                  <a href="callto:git8920549001" class="mx-2">
+                    +91 8920549001
                   </a>
                 
                   </li>
@@ -186,8 +186,8 @@ const Footer = () => {
                  
                   {" "}
                   WhatsApp:{" "}
-                  <a href="callto:+919625128949" class="mx-2">
-                    +91 9578455245
+                  <a href="callto:8920549001" class="mx-2">
+                    +91 8920549001
                   </a>
              
                   </li>
@@ -195,8 +195,8 @@ const Footer = () => {
                   
                   {" "}
                   BOTIM:{" "}
-                  <a href="callto:+919625128949" class="mx-2">
-                    +91 9578455245
+                  <a href="callto:8920549001" class="mx-2">
+                    +91 8920549001
                   </a>
                 
                   </li>
@@ -243,14 +243,14 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <a href="https://wa.me/8920549001" target="_blank">
+      {/* <a href="https://wa.me/8920549001" target="_blank">
         <i
           // class="fa-brands fa-whatsapp fa-bounce"
           class="fa-brands fa-whatsapp"
           // style={{ color: "#32d31d" }}
           id="whatsapp"
         ></i>
-      </a>
+      </a> */}
 
       <div class="copyright">
         <p class="text-center">Copyright © 2023 Veavix. All rights reserved.</p>
